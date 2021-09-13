@@ -1,0 +1,56 @@
+.layui-footer {
+    text-align: center;
+}
+
+/* 设置字体图标与文本的距离 */
+.iconfont {
+    padding-right: 8px;
+}
+
+.layui-icon {
+    padding-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* 主题内容区域设置溢出隐藏就不会显示滚动条 */
+.layui-body {
+    overflow: hidden;
+}
+
+/* 左侧导航的图片和欢迎 */
+.useifo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    user-select: none;
+}
+
+/* 给欢迎加一个地边框 */
+.layui-side-scroll .useifo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #009688;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}

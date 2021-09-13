@@ -80,9 +80,9 @@ $(function () {
                 layer.msg("登录成功")
                 // console.log(res.token);
                 // 登录成功后将token的值保存在localStorage中
-                // localStorage.setItem("token",res.token)
+                localStorage.setItem("token",res.token)
                 // 登陆成功后转跳到后台主页index.html
-                // location.href="/index.html"
+                location.href="/index.html"
             }
         })
   })
