@@ -67,7 +67,7 @@ function renderAvatar(user) {
     if (user.user_pic !== null) {
         // 判断响应的信息user里面的头像属性是否为空
         // 不为空则获取到html头像头像元素，修改属性的scr地址。并显示。让字母头像隐藏
-        $(".layui-nav-img").attr("scr", user.user_pic).show();
+        $(".layui-nav-img").attr("src", user.user_pic).show();
         $(".text-avatar").hide()
     }
     else {

@@ -53,7 +53,7 @@ $(function () {
         e.preventDefault()
         var data={ username:$("#form-items").val(), password:$("#psa").val() }
         // 发起ajax的post请求
-        $.post("http://api-breakingnews-web.itheima.net/api/reguser", data, function (res) {
+        $.post("/api/reguser", data, function (res) {
             if (res.status!== 0) {
                 // 此处可以用layui内置的提示框
                 return layer.msg(res.message);
